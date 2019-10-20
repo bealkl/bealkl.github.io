@@ -1,7 +1,107 @@
+/* select Playfair Display accessable */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+/* default settings for page  */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* some specific setting */
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #666666;
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-style: 30px;
+    margin-bottom: 40px;
+}
+
+
 /* style for main menu */
 
-.main_menu {
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
+.navigation-bar {
+    text-align: center;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
     color: #666666;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a:hover,
+a:focus {
+    color: #0099ff;
+}
+
+
+/* main section */
+
+.sectionMain {
+    width: 900px;
+    margin: 0 auto;
+}
+
+img+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.infoSection {
+    width: 420px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 56px;
+    padding: 0;
+}
+
+.infoSection:nth-child(2n) {
+    margin-right: 0;
+}
+
+.infoSection:nth-child(2n+1) {
+    margin-left: 0;
+}
+
+.infoSection:last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+img {
+    width: 420px;
+    height: 280px;
+    display: block;
+    max-width: 100%;
+}
+
+.moreButton {
+    margin-top: 30px auto;
+    display: inline-block;
+}
+
+button {
+    font-style: 20px;
 }
