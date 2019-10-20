@@ -1,6 +1,6 @@
 /* select Playfair Display accessable */
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300&display=swap');
 
 /* default settings for page  */
 
@@ -68,6 +68,7 @@ a:focus {
 img+p {
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .infoSection {
@@ -97,11 +98,27 @@ img {
     max-width: 100%;
 }
 
-.moreButton {
-    margin-top: 30px auto;
-    display: inline-block;
+
+/* button style  */
+
+.footer_section {
+    margin: 60px auto;
 }
 
-button {
-    font-style: 20px;
+.moreButton {
+    display: block;
+    width: 164px;
+    height: 60px;
+    border: 2px solid #666666;
+    background-color: #fff;
+    font-size: 20px;
+    /* padding: 23px 34px; */
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.moreButton:hover,
+.moreButton:focus {
+    background-color: #666666;
+    color: black;
 }
