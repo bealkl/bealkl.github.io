@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -41,9 +41,9 @@ h2+p {
 /* style for main menu */
 
 .menu {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    /* text-align: center; */
+    padding-left: 165px;
+    margin-bottom: 100px;
 }
 
 .menu a {
@@ -58,6 +58,14 @@ h2+p {
     margin-right: 120px;
 }
 
+.menu li:nth-child(2) {
+    margin-right: 100px;
+}
+
+.menu li:nth-child(3) {
+    margin-right: 90px;
+}
+
 .menu li :last-child {
     margin-right: 0;
 }
@@ -70,13 +78,13 @@ a:focus {
 
 /* main section */
 
-.section-main {
+
+/* .section-main {
     width: 900px;
     margin: 0 auto;
-}
+} */
 
-img+p {
-    margin-top: 30px;
+.name-info-section {
     margin-bottom: 30px;
     font-family: 'Ubuntu', sans-serif;
     color: #cc9999;
@@ -86,13 +94,12 @@ img+p {
 .info-section {
     width: 420px;
     display: inline-block;
-    margin-top: 100px;
-    margin-left: 56px;
-    padding: 0;
+    margin-right: 56px;
+    vertical-align: top;
 }
 
 .info-section:nth-child(2n) {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .info-section:nth-child(2n+1) {
@@ -103,9 +110,21 @@ img+p {
     margin-bottom: 0;
 }
 
+.info-section:nth-child(-n+4) {
+    margin-bottom: 140px;
+}
+
+.info-section:nth-child(-n+2) {
+    margin-bottom: 135px;
+}
+
+.info-section:nth-child(n+5) {
+    margin-bottom: 57px;
+}
+
 img {
     display: block;
-    /* max-width: 100%; */
+    margin-bottom: 30px;
 }
 
 
