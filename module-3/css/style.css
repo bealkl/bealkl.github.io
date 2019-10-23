@@ -40,13 +40,16 @@ h2+p {
 
 /* style for main menu */
 
-.navigation-bar {
+.menu {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .menu a {
     text-transform: uppercase;
     text-decoration: none;
+    line-height: 24px;
     color: #666666;
 }
 
@@ -55,7 +58,7 @@ h2+p {
     margin-right: 120px;
 }
 
-.menu li:last-child {
+.menu li :last-child {
     margin-right: 0;
 }
 
@@ -101,10 +104,8 @@ img+p {
 }
 
 img {
-    width: 420px;
-    height: 280px;
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 
