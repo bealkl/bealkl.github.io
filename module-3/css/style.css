@@ -19,9 +19,9 @@ html {
 
 body {
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     color: rgb(98, 98, 98);
     background-color: #fff;
-    padding: 0;
 }
 
 .container {
