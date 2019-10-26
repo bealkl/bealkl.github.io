@@ -30,3 +30,88 @@ body {
     width: 900px;
     margin: 0 auto;
 }
+
+.mart {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(26, 188, 156);
+    text-transform: uppercase;
+    line-height: 1.067;
+}
+
+.menu {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(26, 188, 156);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
+}
+
+.featured_products {
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+}
+
+.name_product,
+.price_product {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.778;
+}
+
+.Rectangle_51 {
+    background-color: rgb(50, 50, 50);
+}
+
+.Rectangle_52 {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.439;
+}
+
+.Rectangle_51 {
+    background-color: rgb(26, 188, 156);
+}
+
+.Rectangle_52 {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.439;
+}
+
+.name-header-2section {
+    font-size: 18px;
+    font-family: "OpenSans";
+    /* semibold */
+    color: rgb(85, 82, 82);
+    line-height: 1.444;
+}
+
+.text-2section {
+    font-size: 14px;
+    font-family: "OpenSans";
+    /* regular */
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+}
+
+.read-more-button {
+    font-size: 16px;
+    font-family: "OpenSans";
+    /* light */
+    color: rgb(255, 255, 255);
+    line-height: 1.625;
+    text-align: center;
+    -moz-transform: matrix( 0.98757763975155, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix( 0.98757763975155, 0, 0, 1, 0, 0);
+    -ms-transform: matrix( 0.98757763975155, 0, 0, 1, 0, 0);
+}
+
+.read-more-button-bg {
+    border-radius: 3px;
+    background-color: rgb(78, 198, 171);
+}
